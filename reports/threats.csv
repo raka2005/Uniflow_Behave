@@ -1,0 +1,4 @@
+threat_type,source_ip,destination_ip,protocol,packet_count,total_bytes,severity,risk_score,description
+High-Volume UDP Traffic,192.168.1.11,10.0.0.8,UDP,120,3360,High,90,Large number of UDP packets detected
+Possible Port Scan,192.168.1.10,Multiple,TCP/UDP,15,0,High,85,Source contacted 15 different destination ports
+DNS Traffic,192.168.1.12,8.8.8.8,UDP,25,700,Low,10,DNS request traffic grouped by source and destination
